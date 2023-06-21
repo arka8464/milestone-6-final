@@ -27,7 +27,28 @@
 .App-link {
   color: #61dafb;
 }
-
+.MuiDataGrid-cell{
+  background-color: rgb(128, 127, 127);
+  color: white;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeaderWrapper {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin: 2px;
+  background-color: rgb(187, 187, 187);
+  color: white;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  overflow: hidden;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiDataGrid-root .MuiDataGrid-footerContainer {
+  background-color: rgb(142, 139, 139);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

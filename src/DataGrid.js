@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 
-// const columns = [
+
 //   { field: 'id', headerName: 'Sl No', width: 150 },
 //   {
 //     field: 'firstName',
@@ -37,16 +37,16 @@ import { DataGrid } from '@mui/x-data-grid';
 const columns = [
   { field: 'slno', headerName: 'Sl No', width: 100 },
   { field: 'customer_order_id', headerName: 'CUSTOMER ORDER ID', width: 150 },
-  { field: 'salesorg', headerName: 'SALES ORG', width: 100 },
+  { field: 'salesorg', headerName: 'SALES ORG', width: 150 },
   { field: 'distribution_channel', headerName: 'DISTRIBUTION CHANNEL', width: 270, wrapText: true },
-  { field: 'company_code', headerName: 'COMPANY CODE', width: 150 },
+  { field: 'company_code', headerName: 'COMPANY CODE', width: 200 },
   { field: 'order_creation_date', headerName: 'ORDER CREATION DATE', width: 200 },
   { field: 'order_amount', headerName: 'ORDER AMOUNT', width: 150 },
   { field: 'order_currency', headerName: 'ORDER CURRENCY', width: 150 },
   { field: 'customer_number', headerName: 'CUSTOMER NUMBER', width: 200 },
 ];
 
-// const rows = [
+
 //   { id: 1, lastName: 'Snow', firstName: 'Jon', age: 35 },
 //   { id: 2, lastName: 'Lannister', firstName: 'Cersei', age: 42 },
 //   { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
@@ -155,9 +155,8 @@ const rows = [
     order_currency: 'EUR',
     customer_number: '1210111951',
   },
-  // Add more rows as needed
-];
 
+];
 
 
 export default function DataGridDemo() {
