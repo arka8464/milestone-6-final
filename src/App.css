@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+#root{
+  background-color: orange;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,11 +25,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  overflow: hidden;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 .App-link {
   color: #61dafb;
 }
-.MuiDataGrid-cell{
+.MuiDataGrid-cell {
   background-color: rgb(128, 127, 127);
   color: white;
 }
